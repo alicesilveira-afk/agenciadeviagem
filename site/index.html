@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#06275d">
+  <meta name="description" content="Descubra destinos e planeje sua próxima viagem com a CVC PB – Sousa.">
+  <title>CVC PB – Sousa | O mundo está esperando por você</title>
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/css/homepage.css">
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body data-page="inicio">
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <header class="site-header" id="site-header"></header>
+  <main id="main">
+    <section class="home-hero" id="inicio">
+      <img class="home-hero__image" src="assets/img/paisagem-lago.jpg" alt="" fetchpriority="high">
+      <div class="home-hero__overlay" aria-hidden="true"></div>
+      <svg class="home-flight-path" viewBox="0 0 1500 390" preserveAspectRatio="none" aria-hidden="true">
+        <path id="home-flight-route" d="M340 115 C520 25 720 22 900 60 S1080 145 1220 80"/>
+      </svg>
+      <span class="home-flight-arrival" aria-hidden="true"></span>
+      <div class="home-plane-marker" aria-hidden="true">
+        <div class="home-plane">
+          <img class="home-plane__image" src="assets/img/cvc-aircraft-branded.png" alt="">
+        </div>
+      </div>
+
+      <div class="home-hero__content container">
+        <div class="home-hero__copy">
+          <p class="home-eyebrow"><span aria-hidden="true">✈</span> CVC PB – SOUSA · PARAÍBA</p>
+          <h1>O mundo está <span>esperando por você.</span></h1>
+          <p class="home-hero__lead">Embarque em novas experiências. Descubra destinos, viva histórias e realize seus sonhos.</p>
+          <div class="home-hero__actions">
+            <a class="home-button home-button--yellow" href="#destinos"><span aria-hidden="true">✈</span> Explorar destinos <span aria-hidden="true">→</span></a>
+            <a class="home-button home-button--outline" href="servicos.html"><span aria-hidden="true">⌖</span> Conheça nossos serviços</a>
+          </div>
+        </div>
+        <p class="home-travel-note" aria-hidden="true">Viajar<br>é viver mais <span>♡</span></p>
+      </div>
+
+      <form class="home-search container" id="travel-search">
+        <label class="home-search__field home-search__field--destination">
+          <span class="home-search__icon" aria-hidden="true">⌕</span>
+          <span class="visually-hidden">Destino desejado</span>
+          <input id="destination" name="destination" type="text" placeholder="Qual destino você deseja conhecer?" autocomplete="off">
+        </label>
+        <label class="home-search__field">
+          <span class="home-search__icon" aria-hidden="true">▦</span>
+          <span class="visually-hidden">Data desejada</span>
+          <input id="travel-date" name="date" type="date" aria-label="Quando deseja viajar?">
+        </label>
+        <label class="home-search__field">
+          <span class="home-search__icon" aria-hidden="true">♧</span>
+          <span class="visually-hidden">Quantidade de viajantes</span>
+          <select id="travelers" name="travelers">
+            <option value="">Quantas pessoas?</option>
+            <option value="1 pessoa">1 pessoa</option>
+            <option value="2 pessoas">2 pessoas</option>
+            <option value="3 pessoas">3 pessoas</option>
+            <option value="4 pessoas">4 pessoas</option>
+            <option value="5 ou mais pessoas">5 ou mais pessoas</option>
+          </select>
+        </label>
+        <button class="home-button home-button--yellow home-search__submit" type="submit">Consultar</button>
+      </form>
+    </section>
+
+    <section class="home-destinations container" id="destinos">
+      <div class="home-section-heading">
+        <h2><span aria-hidden="true"></span> Destinos em <em>destaque</em></h2>
+        <a href="destinos.html">Ver todos os destinos <b aria-hidden="true">→</b></a>
+      </div>
+      <div class="home-destination-grid">
+        <a class="home-destination-card" href="destinos.html">
+          <img src="assets/img/destino-paris.jpeg" alt="Torre Eiffel vista do outro lado do rio Sena, em Paris" loading="lazy">
+          <span class="home-destination-card__caption"><strong>Paris</strong><small>Romance em cada detalhe</small></span>
+        </a>
+        <a class="home-destination-card" href="destinos.html">
+          <img src="assets/img/destino-fernando-de-noronha.jpeg" alt="Praia de águas verdes e cristalinas em Fernando de Noronha" loading="lazy">
+          <span class="home-destination-card__caption"><strong>Fernando de Noronha</strong><small>Natureza em sua forma mais pura</small></span>
+        </a>
+        <a class="home-destination-card" href="destinos.html">
+          <img src="assets/img/destino-joao-pessoa.jpeg" alt="Vista aérea da orla de João Pessoa, com a praia e o mar" loading="lazy">
+          <span class="home-destination-card__caption"><strong>João Pessoa</strong><small>Sol e mar no litoral paraibano</small></span>
+        </a>
+        <a class="home-destination-card" href="destinos.html">
+          <img src="assets/img/destino-rio-de-janeiro.jpeg" alt="Vista do Cristo Redentor e da paisagem do Rio de Janeiro" loading="lazy">
+          <span class="home-destination-card__caption"><strong>Rio de Janeiro</strong><small>Paisagens que encantam</small></span>
+        </a>
+      </div>
+      <p class="home-disclaimer">Destinos apresentados como inspiração. Consulte a unidade sobre opções, disponibilidade e condições.</p>
+    </section>
+
+    <section class="home-planning container" id="planeje">
+      <p class="home-eyebrow">SUA VIAGEM COMEÇA COM UMA ESCOLHA</p>
+      <h2>Planeje no seu ritmo. <span>Viaje do seu jeito.</span></h2>
+      <p>Converse com a CVC PB – Sousa para consultar possibilidades para sua próxima experiência.</p>
+      <a class="home-button home-button--yellow" href="https://wa.me/5583991724057?text=Ol%C3%A1%2C%20CVC%20PB%20%E2%80%93%20Sousa!%20Gostaria%20de%20consultar%20possibilidades%20para%20uma%20viagem." target="_blank" rel="noopener noreferrer">Fale pelo WhatsApp <span aria-hidden="true">↗</span></a>
+    </section>
+    <section class="home-about container" id="sobre">
+      <h2>CVC PB – Sousa</h2>
+      <p>Consulte diretamente com a unidade informações sobre serviços turísticos e possibilidades para organizar sua viagem.</p>
+      <a href="sobre.html">Conheça a agência <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+  <a class="home-whatsapp" href="https://wa.me/5583991724057" target="_blank" rel="noopener noreferrer" aria-label="Fale com a CVC pelo WhatsApp"><span aria-hidden="true">◉</span></a>
+  <footer class="site-footer" id="site-footer"></footer>
+  <noscript><nav class="noscript-nav" aria-label="Navegação principal"><a href="index.html">Início</a><a href="servicos.html">Serviços</a><a href="destinos.html">Destinos</a><a href="pacotes.html">Pacotes</a>
+        <a href="design-system.md">Design System</a><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a></nav></noscript>
+</body>
+</html>

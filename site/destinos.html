@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Explore destinos nacionais e internacionais como inspiração e consulte a CVC PB – Sousa sobre possibilidades de viagem.">
+  <title>Destinos | CVC PB – Sousa</title>
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body data-page="destinos">
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <header class="site-header" id="site-header"></header>
+  <main id="main">
+    <section class="page-hero container">
+      <p class="eyebrow">DESTINOS</p>
+      <h1>Existem muitos lugares esperando por você.</h1>
+      <p class="lead">Do Brasil ao mundo, cada destino guarda paisagens, culturas e experiências diferentes. Explore possibilidades, encontre inspiração e comece a planejar sua próxima viagem.</p>
+      <a class="button button--primary" href="contato.html#formulario">Converse sobre seu destino</a>
+    </section>
+    <section class="section container">
+      <div class="filter-panel">
+        <div class="filter-copy"><p class="eyebrow">ENCONTRE UMA IDEIA</p><h2>Explore destinos</h2><p>Filtre por região ou pesquise pelo nome. Estes destinos são referências para inspiração, não ofertas ou disponibilidade confirmadas.</p></div>
+        <div class="filter-controls">
+          <label class="filter-search">Pesquisar destino<input type="search" id="destination-search" placeholder="Ex.: Lisboa" autocomplete="off"></label>
+          <div class="filter-chips" role="group" aria-label="Filtrar destinos por região">
+            <button type="button" class="filter-chip is-selected" data-filter="todos" aria-pressed="true">Todos</button>
+            <button type="button" class="filter-chip" data-filter="nacional" aria-pressed="false">Brasil</button>
+            <button type="button" class="filter-chip" data-filter="internacional" aria-pressed="false">Internacionais</button>
+          </div>
+        </div>
+        <p class="filter-count" id="destination-count" aria-live="polite"></p>
+      </div>
+      <div class="destination-grid" id="destination-grid">
+        <article class="destination-card" data-region="nacional" data-search="joão pessoa paraíba brasil nordeste">
+          <img class="destination-card__visual" src="assets/img/destino-joao-pessoa.jpeg" alt="Vista aérea da orla de João Pessoa, com a praia e o mar" loading="lazy">
+          <div class="destination-card__body"><p class="eyebrow">PARAÍBA · BRASIL</p><h2>João Pessoa</h2><p>Uma possibilidade para explorar no Nordeste brasileiro.</p><a class="text-link" href="https://wa.me/5583991724057?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20possibilidades%20de%20viagem%20para%20Jo%C3%A3o%20Pessoa." target="_blank" rel="noopener noreferrer">Consultar possibilidades <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="destination-card" data-region="nacional" data-search="fernando de noronha pernambuco brasil nordeste">
+          <img class="destination-card__visual" src="assets/img/destino-fernando-de-noronha.jpeg" alt="Praia de águas verdes e cristalinas em Fernando de Noronha" loading="lazy">
+          <div class="destination-card__body"><p class="eyebrow">PERNAMBUCO · BRASIL</p><h2>Fernando de Noronha</h2><p>Uma referência de viagem no arquipélago pernambucano.</p><a class="text-link" href="https://wa.me/5583991724057?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20possibilidades%20de%20viagem%20para%20Fernando%20de%20Noronha." target="_blank" rel="noopener noreferrer">Consultar possibilidades <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="destination-card" data-region="nacional" data-search="rio de janeiro rio de janeiro brasil sudeste">
+          <img class="destination-card__visual" src="assets/img/destino-rio-de-janeiro.jpeg" alt="Vista do Cristo Redentor e da paisagem do Rio de Janeiro" loading="lazy">
+          <div class="destination-card__body"><p class="eyebrow">RIO DE JANEIRO · BRASIL</p><h2>Rio de Janeiro</h2><p>Uma possibilidade para conhecer a região Sudeste do Brasil.</p><a class="text-link" href="https://wa.me/5583991724057?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20possibilidades%20de%20viagem%20para%20o%20Rio%20de%20Janeiro." target="_blank" rel="noopener noreferrer">Consultar possibilidades <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="destination-card" data-region="nacional" data-search="gramado rio grande do sul brasil sul">
+          <img class="destination-card__visual" src="assets/img/destino-gramado.jpeg" alt="Rua de Gramado com construções em estilo europeu ao entardecer" loading="lazy">
+          <div class="destination-card__body"><p class="eyebrow">RIO GRANDE DO SUL · BRASIL</p><h2>Gramado</h2><p>Uma ideia de destino para explorar na região Sul.</p><a class="text-link" href="https://wa.me/5583991724057?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20possibilidades%20de%20viagem%20para%20Gramado." target="_blank" rel="noopener noreferrer">Consultar possibilidades <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="destination-card" data-region="internacional" data-search="lisboa portugal europa">
+          <img class="destination-card__visual" src="assets/img/destino-lisboa.jpeg" alt="Vista dos edifícios coloridos e da paisagem de Lisboa" loading="lazy">
+          <div class="destination-card__body"><p class="eyebrow">PORTUGAL · EUROPA</p><h2>Lisboa</h2><p>Uma possibilidade para descobrir a capital portuguesa.</p><a class="text-link" href="https://wa.me/5583991724057?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20possibilidades%20de%20viagem%20para%20Lisboa." target="_blank" rel="noopener noreferrer">Consultar possibilidades <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="destination-card" data-region="internacional" data-search="buenos aires argentina américa do sul">
+          <img class="destination-card__visual" src="assets/img/destino-buenos-aires.jpeg" alt="Avenida e Obelisco de Buenos Aires ao entardecer" loading="lazy">
+          <div class="destination-card__body"><p class="eyebrow">ARGENTINA · AMÉRICA DO SUL</p><h2>Buenos Aires</h2><p>Uma ideia de viagem para conhecer a capital argentina.</p><a class="text-link" href="https://wa.me/5583991724057?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20possibilidades%20de%20viagem%20para%20Buenos%20Aires." target="_blank" rel="noopener noreferrer">Consultar possibilidades <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="destination-card" data-region="internacional" data-search="paris frança europa">
+          <img class="destination-card__visual" src="assets/img/destino-paris.jpeg" alt="Torre Eiffel vista do outro lado do rio Sena, em Paris" loading="lazy">
+          <div class="destination-card__body"><p class="eyebrow">FRANÇA · EUROPA</p><h2>Paris</h2><p>Uma possibilidade para explorar a capital francesa.</p><a class="text-link" href="https://wa.me/5583991724057?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20possibilidades%20de%20viagem%20para%20Paris." target="_blank" rel="noopener noreferrer">Consultar possibilidades <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="destination-card" data-region="internacional" data-search="orlando flórida estados unidos américa do norte">
+          <img class="destination-card__visual" src="assets/img/destino-orlando.jpeg" alt="Entrada do Universal Orlando Resort com o globo da Universal" loading="lazy">
+          <div class="destination-card__body"><p class="eyebrow">ESTADOS UNIDOS · AMÉRICA DO NORTE</p><h2>Orlando</h2><p>Uma ideia de destino para conhecer na Flórida.</p><a class="text-link" href="https://wa.me/5583991724057?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20possibilidades%20de%20viagem%20para%20Orlando." target="_blank" rel="noopener noreferrer">Consultar possibilidades <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+      <p class="empty-state" id="destination-empty" hidden>Não encontramos informações para esta consulta. Tente outra opção ou entre em contato com a unidade.</p>
+      <p class="disclaimer">As imagens da página são ilustrativas e não representam os destinos listados. Os destinos são sugestões de inspiração, sem indicação de oferta ou disponibilidade comercial.</p>
+    </section>
+    <section class="section section--soft">
+      <div class="container closing-cta"><div><p class="eyebrow">JÁ TEM UM DESTINO EM MENTE?</p><h2>Já escolheu para onde quer ir?</h2><p>Entre em contato com a unidade e consulte possibilidades para organizar sua viagem.</p></div><a class="button button--primary" href="contato.html#formulario">Solicitar orçamento</a></div>
+    </section>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <noscript><nav class="noscript-nav" aria-label="Navegação principal"><a href="index.html">Início</a><a href="servicos.html">Serviços</a><a href="destinos.html">Destinos</a><a href="pacotes.html">Pacotes</a><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a></nav></noscript>
+</body>
+</html>
